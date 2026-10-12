@@ -17,7 +17,7 @@ jobs:
         git checkout main
 
         # run the database in docker container
-        docker-compose up -d --build
+        docker compose up -d --build
 
         # verify that it is running successfully
         # this is an idempotent command useful for debugging
